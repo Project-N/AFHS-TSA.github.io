@@ -1,18 +1,23 @@
+div.containter {
+    padding: 20px;
+}
 ul.main-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-} 
+    overflow: hidden;
+    background-color: #333;
+}
 li.menu {
-    display: inline;
     float: left;
 }
 a.menu {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
-div.containter {
-    padding: 20px;
+li.menu a.menu:hover {
+    background-color: #111;
 }
