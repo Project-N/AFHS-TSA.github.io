@@ -21,7 +21,7 @@ a.menu {
 li.menu a.menu:hover {
     background-color: #111;
 }
-div.containter {
+div.everything {
     padding: 20px;
-    background: url('/images/orange-building.jpg');
+    background: url('../images/orange-building.jpg');
 }
