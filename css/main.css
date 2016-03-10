@@ -24,4 +24,5 @@ li.menu a.menu:hover {
 div.everything {
     padding: 20px;
     background: url('../images/orange-building.jpg');
+    font-family: 'Raleway', sans-serif;
 }
