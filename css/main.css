@@ -48,34 +48,6 @@ li.menu.active {
     float: left;
     margin-left: 10px;
 }
-
-/*div.side-menu {
-    margin: 10px;
-    box-shadow: 0 0 30px #333333;
-}
-ul.side-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: #333;
-}
-li.side-menu {
-    float: left;
-}
-a.menu {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li.side-menu a.side-menu:hover {
-    background-color: #111;
-}
-li.side-menu.active {
-    background-color: #111;
-}*/
 div.side-menu {
     margin: 10px;
 }
@@ -85,7 +57,7 @@ ul.side-menu {
     margin: 0;
     padding: 0;
     width: 25%;
-    height: 82%;
+    height: 76%;
     background-color: #333;
     position: fixed;
     overflow: auto;
@@ -95,7 +67,7 @@ ul.side-menu {
 div.content {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 81.65%;
+    height: 75.65%;
     width: 72%;
     position: fixed;
     box-shadow: 0 0 30px #333333;
@@ -176,7 +148,19 @@ a.about {
 li.about a.about:hover {
     background-color: #111;
 }
-
+td.bio {
+    font-size: 15px;
+    overflow: auto;
+    text-align: right;
+}
+td.name {
+    text-align: center;
+}
+p.position {
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+}
 body {
     background-size: cover !important;
     font-family: 'Raleway', sans-serif;
