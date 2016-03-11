@@ -106,12 +106,7 @@ a.side-menu {
     text-decoration: none;
     cursor: pointer;
 }
-<<<<<<< HEAD
 li.side-menu:hover a.side-menu:hover {
-=======
-
-li.side-menu a.side-menu:hover {
->>>>>>> cbd7022be8deb3a8b50e1f4900665eba0c26db1b
     background-color: #111;
 }
 
