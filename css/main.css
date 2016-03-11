@@ -88,8 +88,9 @@ a.side-menu {
     color: white;
     padding: 8px 0 8px 16px;
     text-decoration: none;
+    cursor: pointer;
 }
-li.side-menu a.side-menu:hover {
+li.side-menu:hover a.side-menu:hover {
     background-color: #111;
 }
 li.side-menu.active {
