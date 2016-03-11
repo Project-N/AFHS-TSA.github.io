@@ -3,7 +3,8 @@ body, div {
     padding: 0;
 }
 div.container {
-    padding: 20px;
+    margin-left:10%;
+    margin-right:10%;
 }
 div.menu {
     margin: 10px;
@@ -95,8 +96,8 @@ li.side-menu.active {
     background-color: #111;
 }
 body {
-    background: url("../images/orange-building.jpg");
-    background-repeat: no-repeat;
+            background: url("../images/orange-building.jpg");
+            background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
