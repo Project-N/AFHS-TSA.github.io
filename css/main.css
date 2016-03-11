@@ -41,6 +41,11 @@ li.menu.active {
     background-color: #111;
 }
 
+#CTEClasses li {
+    width: 50%;
+    float: left;
+}
+
 /*div.side-menu {
     margin: 10px;
     box-shadow: 0 0 30px #333333;
