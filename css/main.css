@@ -106,12 +106,7 @@ a.side-menu {
     text-decoration: none;
     cursor: pointer;
 }
-<<<<<<< HEAD
 li.side-menu:hover a.side-menu:hover {
-=======
-
-li.side-menu a.side-menu:hover {
->>>>>>> cbd7022be8deb3a8b50e1f4900665eba0c26db1b
     background-color: #111;
 }
 
@@ -119,11 +114,35 @@ li.side-menu.active {
     background-color: #111;
 }
 
-body {
+body.index {
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)),
+    url("../images/switz-tiling.jpg") no-repeat;
+}
+
+body.aboutCTE {
     background: linear-gradient(
             rgba(255, 255, 255, 0.4),
             rgba(255, 255, 255, 0.4)),
     url("../images/orange-building.jpg") no-repeat;
-    background-size: cover;
+}
+
+body.aboutTSA {
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.4)),
+    url("../images/tall-tower1.jpg") no-repeat;
+}
+
+body.aboutUAS {
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.4)),
+    url("../images/world-trade-center.jpg") no-repeat;
+}
+
+body {
+    background-size: cover !important;
     font-family: 'Raleway', sans-serif;
 }
