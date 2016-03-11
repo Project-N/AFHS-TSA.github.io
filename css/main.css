@@ -116,8 +116,8 @@ li.side-menu.active {
 
 body.index {
     background: linear-gradient(
-            rgba(255, 255, 255, 0.4),
-            rgba(255, 255, 255, 0.4)),
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)),
     url("../images/switz-tiling.jpg") no-repeat;
 }
 
@@ -143,6 +143,6 @@ body.aboutUAS {
 }
 
 body {
-    background-size: 100% !important;
+    background-size: cover !important;
     font-family: 'Raleway', sans-serif;
 }
