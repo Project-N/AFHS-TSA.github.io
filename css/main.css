@@ -78,7 +78,6 @@ li.side-menu.active {
 }*/
 div.side-menu {
     margin: 10px;
-    box-shadow: 0 0 30px #333333;
 }
 
 ul.side-menu {
@@ -86,16 +85,17 @@ ul.side-menu {
     margin: 0;
     padding: 0;
     width: 25%;
-    height: 85%;
+    height: 82%;
     background-color: #333;
     position: fixed;
     overflow: auto;
+    box-shadow: 0 0 30px #333333;
 }
 
 div.content {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 84.65%;
+    height: 81.65%;
     width: 72%;
     position: fixed;
     box-shadow: 0 0 30px #333333;
@@ -145,7 +145,23 @@ body.aboutUAS {
     url("../images/world-trade-center.jpg") no-repeat;
 }
 
+#footer {
+    background:linear-gradient(
+            rgba(51, 51, 51, 0.9),
+            rgba(51, 51, 51, 0.9));
+	width:100%;
+	height:50px;
+	position:fixed;
+	bottom:0;
+	left:0;
+    text-align: center;
+}
+p.footer {
+    color: white;
+}
+
 body {
     background-size: cover !important;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 75px;
 }
