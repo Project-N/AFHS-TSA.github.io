@@ -31,10 +31,12 @@ a.menu {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: background-color .2s, color .2s;
 }
 
 li.menu a.menu:hover {
     background-color: #111;
+    color: #CCC;
 }
 
 li.menu.active {
@@ -42,8 +44,9 @@ li.menu.active {
 }
 
 #CTEClasses li {
-    width: 50%;
+    width: calc(50% - 10px);
     float: left;
+    margin-left: 10px;
 }
 
 /*div.side-menu {
