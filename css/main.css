@@ -2,14 +2,17 @@ body, div {
     margin: 0;
     padding: 0;
 }
+
 div.container {
-    margin-left:10%;
-    margin-right:10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
 div.menu {
     margin: 10px;
     box-shadow: 0 0 30px #333333;
 }
+
 ul.main-menu {
     list-style-type: none;
     margin: 0;
@@ -17,9 +20,11 @@ ul.main-menu {
     overflow: hidden;
     background-color: #333;
 }
+
 li.menu {
     float: left;
 }
+
 a.menu {
     display: block;
     color: white;
@@ -27,12 +32,20 @@ a.menu {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 li.menu a.menu:hover {
     background-color: #111;
 }
+
 li.menu.active {
     background-color: #111;
 }
+
+#CTEClasses li {
+    width: 50%;
+    float: left;
+}
+
 /*div.side-menu {
     margin: 10px;
     box-shadow: 0 0 30px #333333;
@@ -64,6 +77,7 @@ div.side-menu {
     margin: 10px;
     box-shadow: 0 0 30px #333333;
 }
+
 ul.side-menu {
     list-style-type: none;
     margin: 0;
@@ -74,15 +88,17 @@ ul.side-menu {
     position: fixed;
     overflow: auto;
 }
+
 div.content {
-    margin-left:25%;
-    padding:1px 16px;
-    height:84.65%;
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 84.65%;
     width: 72%;
     position: fixed;
     box-shadow: 0 0 30px #333333;
     z-index: -1;
 }
+
 a.side-menu {
     display: block;
     color: white;
@@ -90,15 +106,24 @@ a.side-menu {
     text-decoration: none;
     cursor: pointer;
 }
+<<<<<<< HEAD
 li.side-menu:hover a.side-menu:hover {
+=======
+
+li.side-menu a.side-menu:hover {
+>>>>>>> cbd7022be8deb3a8b50e1f4900665eba0c26db1b
     background-color: #111;
 }
+
 li.side-menu.active {
     background-color: #111;
 }
+
 body {
-            background: url("../images/orange-building.jpg");
-            background-repeat: no-repeat;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.4)),
+    url("../images/orange-building.jpg") no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
