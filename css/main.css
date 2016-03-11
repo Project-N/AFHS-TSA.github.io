@@ -144,6 +144,12 @@ body.aboutUAS {
             rgba(255, 255, 255, 0.4)),
     url("../images/world-trade-center.jpg") no-repeat;
 }
+body.aboutUs{
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.4)),
+    url("../images/tall-tower2.jpg") no-repeat;
+}
 
 #footer {
     background:linear-gradient(
@@ -158,6 +164,17 @@ body.aboutUAS {
 }
 p.footer {
     color: white;
+}
+
+li.about {
+    float: right;
+    background-color: #111;
+}
+a.about {
+    float: right;
+}
+li.about a.about:hover {
+    background-color: #333;
 }
 
 body {
