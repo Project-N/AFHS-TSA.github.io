@@ -185,17 +185,16 @@ p.position {
     margin-left: -200px;
 }
 h1.mainHeader {
-    margin-left: 500px;
-    margin-top: -225px;
+    text-align: center;
 }
 h2.mainHeader {
-    margin-left: 500px;
+    text-align: center;
 }
 div.pHeader {
     overflow: auto;
     position: absolute;
     left: 375px;
-    top: 100px;
+    top: 40px;
     right: 10px;
     text-align: center;
 }
