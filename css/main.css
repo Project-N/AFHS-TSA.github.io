@@ -89,6 +89,7 @@ div.content1 {
     left: 10px;
     top: 80px;
     right: 10px;
+    bottom: 375px;
 }
 
 a.side-menu {
@@ -182,6 +183,21 @@ p.position {
 #cavemanLogo{
     z-index: 4;
     margin-left: -200px;
+}
+h1.mainHeader {
+    margin-left: 500px;
+    margin-top: -225px;
+}
+h2.mainHeader {
+    margin-left: 500px;
+}
+div.pHeader {
+    overflow: auto;
+    position: absolute;
+    left: 375px;
+    top: 100px;
+    right: 10px;
+    text-align: center;
 }
 body {
     background-size: cover !important;
