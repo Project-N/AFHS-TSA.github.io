@@ -48,30 +48,31 @@ li.menu.active {
     float: left;
     margin-left: 10px;
 }
-div.side-menu {
-    margin: 10px;
-}
 
 ul.side-menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    height: 76%;
     background-color: #333;
-    position: fixed;
     overflow: auto;
     box-shadow: 0 0 30px #333333;
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    top: 68px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 div.content {
-    margin-left: 25%;
-    padding: 1px 16px;
-    height: 75.65%;
-    width: 72%;
-    position: fixed;
+    padding-left: 200px;
     box-shadow: 0 0 30px #333333;
     z-index: -1;
+    overflow: auto;
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    top: 68px;
+    right: 10px;
 }
 
 a.side-menu {
@@ -80,6 +81,7 @@ a.side-menu {
     padding: 8px 0 8px 16px;
     text-decoration: none;
     cursor: pointer;
+    margin-right: 15px;
 }
 li.side-menu:hover a.side-menu:hover {
     background-color: #111;
